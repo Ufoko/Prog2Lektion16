@@ -223,7 +223,7 @@ public class LinkedList<E> implements ListEaaa<E> {
 
             @Override
             public boolean hasNext() {
-                return current != null;
+                return current.nextNode != null;
             }
 
             @Override
